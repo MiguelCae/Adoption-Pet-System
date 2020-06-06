@@ -236,7 +236,7 @@ MEDIAQUERIES
   #sidebar .sidebar-header h3,
   #sidebar .CTAs {
     display: none;
-    font-family: font-family: 'Pacifico', cursive;
+    font-family: font-family  'Pacifico', cursive;
   }
   #sidebar .sidebar-header strong {
     display: block;
@@ -270,10 +270,4 @@ MEDIAQUERIES
   }
   .area-principal{
     border: 0;
-  }
-  .h3,{
-    font-family: 'Pacifico', cursive;
-  }
-  iframe{
-
   }
