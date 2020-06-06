@@ -1,0 +1,50 @@
+
+.Titulo{
+	font-family: 'pacifico', cursive;
+		font-size: 10em;
+		margin: px 100px;
+		padding: 30px;
+		text-align: center;
+}
+
+
+.col-5{
+	margin: 100px 0px;
+	font-family: 'Nunito', sans-serif;
+	/*background: #67A080;*/
+	background: white;
+	padding: 20px;
+	/*text-align: right;*/
+	float: right;
+	border-radius: .25rem;
+
+}
+.form-control{
+	/*width: 30%;*/
+	display: /*inline*/-block;
+	/*float: right;*/
+		
+}
+ 
+.btn-dark{
+	background-color: #A66F98;
+	border-color:   #A66F98;
+
+}
+.row{
+	background:  #A66F98;
+	width: 100%;
+	height: 100%;
+}
+html,body{
+            height: 100%;
+            width: 100%;
+
+        }
+body{
+  /* The image used */
+  background-image: url(../rcs/mountains-3270708_1280.png);
+  background-size: 100% 100%;
+
+        }
+

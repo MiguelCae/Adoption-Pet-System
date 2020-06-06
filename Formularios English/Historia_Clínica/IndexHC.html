@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang=en dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <link rel="stylesheet" href="css\bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/Estilo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+    <title>Formuario Bootsrap</title>
+  </head>
+  <body class="Fondo">
+    <div class="Titulo"><h1>Clinical Record</h1></div>
+    <div class="container">
+     <div class="row">
+       <div class="col-12">
+         <form>
+       <div class="form-row">
+         <div class="form-group col-md-4">
+           <label for="fechaRegistro">Date</label>
+           <input type="date" class="form-control" id="fechaRegistro">
+         </div>
+         <div class="form-group col-md-4">
+           <label for="idMascota">IM Pet</label>
+           <input type="number" class="form-control" id="inputZip" placeholder="">
+         </div>
+         <div class="form-group col-md-4">
+           <label for="seleccioneEspecie">Type</label>
+           <select class="form-control" id="seleccioneEspecie" required >
+             <option>Select</option>
+             <option>Canine</option>
+             <option>Feline</option>
+           </select>
+         </div>
+        </div>
+      <div class="form-row">
+       <div class="form-group col-md-6">
+         <label for="seleccionarSexo">Sexo</label>
+         <select class="form-control" id="seleccionarSexo" required placeholder="" >
+           <option>Select Gender</option>
+           <option>Male</option>
+           <option>Female</option>
+         </select>
+       </div>
+       <div class="form-group col-md-6">
+         <label for="nombreMascota">Name</label>
+         <input type="text" class="form-control" id="inputAddress" placeholder="If you don't have a name, name it" required>
+       </div>
+      </div>
+       <div class="form-group">
+         <label for="razaMascota">Race</label>
+         <input type="text" class="form-control" id="razaMascota" placeholder="">
+       </div>
+       <div class="form-row">
+         <div class="form-group col-md-4">
+           <label for="edadMascota">Age</label>
+           <input type="number" class="form-control" id="edadMascota" placeholder="Approximate in years">
+         </div>
+         <div class="form-group col-md-4">
+           <label for="tamañoMascota">Size</label>
+           <select id="tamañoMascota" class="form-control">
+             <option selected>Select</option>
+             <option>Small</option>
+             <option>Medium</option>
+             <option>Large</option>
+           </select>
+         </div>
+         <div class="form-group col-md-4">
+           <label for="pesoMascota">Weight</label>
+           <input type="number" class="form-control" id="inputZip" placeholder="In Kilograms">
+         </div>
+         <div class="form-group col-md-12">
+           <label for="razaMascota">Description</label>
+           <textarea type="text" class="form-control" id="razaMascota" placeholder=""></textarea>
+         </div>
+         <div class="form-group col-md-12">
+           <label for="razaMascota">Diagnosis and recommendations</label>
+           <textarea type="text" class="form-control" id="razaMascota" placeholder=""></textarea>
+         </div>
+       </div>
+       <button type="submit" class="btn btn-primary">Send</button>
+     </form>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    </script>
+  </body>
+</html>

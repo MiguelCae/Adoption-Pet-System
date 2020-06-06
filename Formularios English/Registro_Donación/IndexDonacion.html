@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang=es dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <link rel="stylesheet" href="css\bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/Estilo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+    <title>Formuario Bootsrap</title>
+  </head>
+  <body class="Fondo">
+    <div class="Titulo"><h1>Registrar Donación</h1></div>
+    <div class="container">
+     <div class="row">
+       <div class="col-12">
+         <form>
+       <div class="form-row">
+         <div class="form-group col-md-6">
+           <label for="fechaRegistro">Fecha de Donación</label>
+           <input type="date" class="form-control" id="fechaRegistro">
+         </div>
+         <div class="form-group col-md-6">
+           <label for="seleccioneEspecie">Especie</label>
+           <select class="form-control" id="seleccioneEspecie" required >
+             <option>Seleccione</option>
+             <option>Canino</option>
+             <option>Felino</option>
+           </select>
+         </div>
+       </div>
+      <div class="form-row">
+       <div class="form-group col-md-6">
+         <label for="seleccionarSexo">Sexo</label>
+         <select class="form-control" id="seleccionarSexo" required placeholder="" >
+           <option>Seleccionar sexo</option>
+           <option>Hembra</option>
+           <option>Macho</option>
+         </select>
+       </div>
+       <div class="form-group col-md-6">
+         <label for="nombreMascota">Nombre</label>
+         <input type="text" class="form-control" id="inputAddress" placeholder="Si no tiene nombre, bautízalo" required>
+       </div>
+      </div>
+       <div class="form-group">
+         <label for="razaMascota">Raza</label>
+         <input type="text" class="form-control" id="razaMascota" placeholder="">
+       </div>
+       <div class="form-row">
+         <div class="form-group col-md-4">
+           <label for="edadMascota">Edad</label>
+           <input type="number" class="form-control" id="edadMascota" placeholder="Aproximada en años">
+         </div>
+         <div class="form-group col-md-4">
+           <label for="tamañoMascota">Tamaño</label>
+           <select id="tamañoMascota" class="form-control">
+             <option selected>Seleccionar</option>
+             <option>Pequeño</option>
+             <option>Mediano</option>
+             <option>Grande</option>
+           </select>
+         </div>
+         <div class="form-group col-md-4">
+           <label for="pesoMascota">Peso</label>
+           <input type="number" class="form-control" id="inputZip" placeholder="En kilogramos">
+         </div>
+       </div>
+       <button type="submit" class="btn btn-primary">Enviar</button>
+     </form>
+<!-- Segunda Columna -->
+<!-- <div class="row">
+  <div class="col-11">
+<form >
+  <div class="form-group col-sm">
+    <label for="SelecionarEspecie">Seleccione Especie</label>
+    <select class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+      <option value="">Seleccione</option>
+      <option value="">Canino</option>
+      <option value="">Felino</option>
+    </select>
+    <small id="Especie" class="form-text text-muted">Seleccione especie</small>
+  </div>
+  <div class="form-group col-sm">
+    <label for="Raza">Raza</label>
+    <input type="text" class="form-control" id="Raza">
+  </div>
+  <div class="form-group col-sm">
+    <label for="nombreMascota">Nombre</label>
+    <input type="text" class="form-control" id="nombreMascota" aria-describedby="nombreHelp" required>
+    <small id="nombreHelp" class="form-text text-muted">Si no tiene, bautízalo</small>
+  </div>
+  <div class="form-group col-sm">
+    <label for="exampleInputPassword1">Tamaño</label>
+    <select class="form-control" id="exampleInputPassword1">
+      <option value="">Seleccione</option>
+      <option value="">Grande</option>
+      <option value="">Mediano</option>
+      <option value="">Pequeño</option>
+    </select>
+  </div>
+<button type="submit" class="btn btn-primary">Enviar</button>
+  </div>
+    </div> -->
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    </script>
+  </body>
+</html>

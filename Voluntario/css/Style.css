@@ -1,0 +1,44 @@
+
+.navbar{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Nunito', sans-serif;
+}
+.navbar-expand-lg .navbar-collapse {
+  /* margin: 1px  1px; */
+  /* padding: 2px; */
+  font-size: 1.2em;
+  font-family: 'Nunito', sans-serif;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #A66F98 !important;
+    color: #A35585;
+    margin: 4px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.bd-sidebar {
+  background: grey;
+
+}
+.nav-item{
+  padding: 10px;
+}
+.dropdown-menu{
+  font-family: 'Nunito', sans-serif;
+}
+/* .navbar-brand{
+  margin-left: 50px;
+} */
+.Jhon{
+  border-radius: 49.99%;
+  margin-left: 200px;
+
+}
+.navbar-light .navbar-nav .nav-link{
+  float: right;
+}
+.col-xl-3{
+  padding-right: 2px;
+}
