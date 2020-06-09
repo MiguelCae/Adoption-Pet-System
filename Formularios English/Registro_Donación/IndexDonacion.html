@@ -9,25 +9,25 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito|Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
-    <title>Formuario Bootsrap</title>
+    <title>Donation Register</title>
   </head>
   <body class="Fondo">
-    <div class="Titulo"><h1>Registrar Donación</h1></div>
+    <div class="Titulo"><h1>Donation Register</h1></div>
     <div class="container">
      <div class="row">
        <div class="col-12">
          <form>
        <div class="form-row">
          <div class="form-group col-md-6">
-           <label for="fechaRegistro">Fecha de Donación</label>
-           <input type="date" class="form-control" id="fechaRegistro">
+           <label for="fechaRegistro">Date</label>
+           <input type="date" value= "2020-06-08"class="form-control" id="fechaRegistro">
          </div>
          <div class="form-group col-md-6">
-           <label for="seleccioneEspecie">Especie</label>
+           <label for="seleccioneEspecie">Type</label>
            <select class="form-control" id="seleccioneEspecie" required >
-             <option>Seleccione</option>
-             <option>Canino</option>
-             <option>Felino</option>
+             <option>Select</option>
+             <option>Canine</option>
+             <option>Feline</option>
            </select>
          </div>
        </div>
@@ -35,40 +35,40 @@
        <div class="form-group col-md-6">
          <label for="seleccionarSexo">Sexo</label>
          <select class="form-control" id="seleccionarSexo" required placeholder="" >
-           <option>Seleccionar sexo</option>
-           <option>Hembra</option>
-           <option>Macho</option>
+           <option>Select Gender</option>
+           <option>Male</option>
+           <option>Female</option>
          </select>
        </div>
        <div class="form-group col-md-6">
-         <label for="nombreMascota">Nombre</label>
-         <input type="text" class="form-control" id="inputAddress" placeholder="Si no tiene nombre, bautízalo" required>
+         <label for="nombreMascota">Name</label>
+         <input type="text" class="form-control" id="inputAddress" placeholder="If you don't have a name, name it" required>
        </div>
       </div>
        <div class="form-group">
-         <label for="razaMascota">Raza</label>
+         <label for="razaMascota">Race</label>
          <input type="text" class="form-control" id="razaMascota" placeholder="">
        </div>
        <div class="form-row">
          <div class="form-group col-md-4">
-           <label for="edadMascota">Edad</label>
-           <input type="number" class="form-control" id="edadMascota" placeholder="Aproximada en años">
+           <label for="edadMascota">Age</label>
+           <input type="number" class="form-control" id="edadMascota" placeholder="Approximate in years">
          </div>
          <div class="form-group col-md-4">
-           <label for="tamañoMascota">Tamaño</label>
+           <label for="tamañoMascota">Size</label>
            <select id="tamañoMascota" class="form-control">
-             <option selected>Seleccionar</option>
-             <option>Pequeño</option>
-             <option>Mediano</option>
-             <option>Grande</option>
+             <option selected>Select</option>
+             <option>Small</option>
+             <option>Medium</option>
+             <option>Big</option>
            </select>
          </div>
          <div class="form-group col-md-4">
-           <label for="pesoMascota">Peso</label>
-           <input type="number" class="form-control" id="inputZip" placeholder="En kilogramos">
+           <label for="pesoMascota">Weight</label>
+           <input type="number" class="form-control" id="inputZip" placeholder="In Kilograms">
          </div>
        </div>
-       <button type="submit" class="btn btn-primary">Enviar</button>
+       <button type="submit" class="btn btn-primary">Send</button>
      </form>
 <!-- Segunda Columna -->
 <!-- <div class="row">
